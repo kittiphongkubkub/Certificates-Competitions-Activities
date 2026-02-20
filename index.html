@@ -121,6 +121,39 @@
             color: var(--text);
         }
 
+        /* ===== Back Button ===== */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 18px;
+            border-radius: 50px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+        .back-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-light);
+            transform: translateX(-3px);
+        }
+
+        .back-btn .arrow {
+            font-size: 1.1rem;
+            transition: transform 0.25s ease;
+        }
+
+        .back-btn:hover .arrow {
+            transform: translateX(-3px);
+        }
+
         /* ===== Hero ===== */
         .hero {
             text-align: center;
@@ -505,6 +538,9 @@
     <!-- Sticky Header -->
     <header class="header">
         <div class="header-inner">
+            <a href="https://github.com/kittiphongkubkub" class="back-btn">
+                <span class="arrow">←</span> Back to GitHub
+            </a>
             <div class="logo">
                 <div class="logo-icon">📋</div>
                 <span>Kittiphong Toadonthong</span>
