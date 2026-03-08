@@ -30,7 +30,8 @@ Certificates-Competitions-Activities-main/
 │   └── Startup 2025.jpg
 ├── My Competitions/
 │   ├── 2025.jpg
-│   └── 2026.jpg
+│   ├── 2026.jpg
+│   └── Coachin Camp.jpg
 └── Activities/
     ├── Accepting younger siblings1.jpg
     ├── Accepting younger siblings2.jpg
@@ -43,9 +44,9 @@ Certificates-Competitions-Activities-main/
 | หมวด | จำนวน |
 |-----|------|
 | 📜 Certificates | 6 รายการ |
-| 🏆 Competitions | 2 รายการ |
+| 🏆 Competitions | 3 รายการ |
 | 🎯 Activities | 4 รายการ |
-| **รวม** | **12 รายการ** |
+| **รวม** | **13 รายการ** |
 
 ## 🛠️ Tech Stack
 
